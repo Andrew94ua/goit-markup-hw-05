@@ -645,3 +645,10 @@ a {
   display: block;
   margin-bottom: 4px;
 }
+.nodal-third {
+  position: relative;
+}
+.input-one {
+  height: 40px;
+  width: 100%;
+}
