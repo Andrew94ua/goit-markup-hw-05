@@ -651,4 +651,13 @@ a {
 .input-one {
   height: 40px;
   width: 100%;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+input:focus {
+  border-color: #4d5ae5;
 }
