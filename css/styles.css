@@ -634,3 +634,6 @@ a {
 .modal-button:focus .modal-icon {
   fill: #ffffff;
 }
+.modal-second {
+  margin-bottom: 8px;
+}
