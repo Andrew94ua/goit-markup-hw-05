@@ -818,6 +818,7 @@ input:focus + .modal-icon {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  justify-content: center;
 }
 .subscribe-icon {
   margin-left: 16px;
