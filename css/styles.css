@@ -704,7 +704,7 @@ input:focus + .modal-icon {
 }
 .checkbox {
 }
-.visually-hidden {
+/*.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -713,7 +713,7 @@ input:focus + .modal-icon {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
-}
+}*/
 .checkbox-label {
   font-size: 12px;
   line-height: 1.17;
