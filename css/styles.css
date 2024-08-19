@@ -701,24 +701,29 @@ input:focus + .modal-icon {
 }
 .modal-fifth {
   margin-bottom: 24px;
+  position: relative;
 }
-.checkbox {
-}
-/*.visually-hidden {
+
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
   border: 0;
-}*/
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .checkbox-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
 .label-span {
   width: 16px;
@@ -824,3 +829,5 @@ input:focus + .modal-icon {
   margin-left: 16px;
   fill: #ffffff;
 }
+.ckeckbox {
+
