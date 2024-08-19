@@ -737,6 +737,7 @@ input:focus + .modal-icon {
   justify-content: center;
   fill: transparent;
   margin-right: 12px;
+  cursor: pointer;
 }
 .checkbox:checked + .checkbox-label > .label-span {
   background-color: #404bbf;
