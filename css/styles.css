@@ -501,7 +501,7 @@ a {
 
 .team .social-link:hover,
 .team .social-link:focus {
-  background-color: #404bbf !important;
+  background-color: #404bbf;
 }
 .social-item {
   width: 40px;
