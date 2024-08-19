@@ -734,10 +734,15 @@ input:focus + .modal-icon {
   fill: transparent;
 }
 .checkbox:checked + .checkbox-label > .label-span {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
+  background-color: #404bbf !important;
+  border: none !important;
+  fill: #f4f4fd !important;
 }
+
 .modal-svg-last {
   fill: #ffff;
+}
+.checkbox-link {
+  text-decoration: underline;
+  color: #4d5ae5;
 }
