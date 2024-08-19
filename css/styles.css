@@ -733,3 +733,8 @@ input:focus + .modal-icon {
   justify-content: center;
   fill: transparent;
 }
+.checkbox:checked + .checkbox-label .label-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
