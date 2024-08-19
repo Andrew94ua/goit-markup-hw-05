@@ -696,3 +696,11 @@ input:focus + .modal-icon {
   resize: none;
   color: rgba(46, 47, 66, 0.4);
 }
+.text-area:focus {
+  border-color: #4d5ae5;
+}
+.modal-fifth {
+  margin-bottom: 24px;
+}
+.checkbox {
+}
