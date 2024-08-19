@@ -748,6 +748,7 @@ input:focus + .modal-icon {
 .modal-svg-last {
   fill: #ffff;
   cursor: pointer;
+  pointer-events: none;
 }
 .checkbox-link {
   text-decoration: underline;
